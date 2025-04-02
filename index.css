@@ -1,0 +1,131 @@
+/*CSS Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*colors and font*/
+.primaryBg{
+	background-color: #1f2833 !important;
+}
+
+.secondaryBg{
+	background-color:#f2f2f2 !important;
+}
+
+.secondaryBgFont{
+	color: #f2f2f2 !important;
+	font-family: 'Montserrat';
+}
+
+.thirdBgFont{
+	color: #f2f2f2 !important;
+	font-family: 'Poiret One';
+}
+
+.fourthBgFont{
+	color: #1f2833 !important;
+	font-family: 'Bebas Neue';
+	font-size: 24px;
+}
+
+.projDescrip{
+	font-family: 'Montserrat';
+}
+
+#toolsH1{
+	font-family: 'Bebas Neue'; 
+	font-size: 65px; 
+ 	letter-spacing: 5px;
+ 	color: #1f2833 !important;
+
+}
+
+#contactHeader{
+	font-family: 'Bebas Neue'; 
+	font-size: 60px; 
+ 	letter-spacing: 3px;
+ 	color: #1f2833 !important;
+
+}
+
+
+nav a{
+	font-family: 'Montserrat';
+	font-size: 14px;
+	 
+	color: black !important;
+ }
+
+#landing #myName{
+ 
+ 	font-family: 'Bebas Neue'; 
+	font-size: 65px; 
+ 	letter-spacing: 2px;
+ 	color: #1f2833 !important;
+  
+
+}
+
+#landing #jobTitle{
+/*	font-family:"Kaushan Script", cursive;*/
+	font-family: "Montserrat";
+	font-weight: 400;
+  	font-style: normal;
+  	font-size: 25px;
+  	font-weight: 500;
+  	color: #1f2833 !important;
+
+ 	
+}
+
+#landing #description{
+	font-family: "Poiret One";
+  	font-size: 16px;
+  	color: #1f2833 !important;
+
+}
+
+#landing #cvButton{
+	color: #f2f2f2 !important;
+	border: 1px solid #f2f2f2;
+	background-color: #1f2833;
+}
+
+#landing #contactButton{
+	color: #1f2833;
+	border: 1px solid #1f2833;
+	 
+}
+
+#myProjectH1{
+	font-family: 'Bebas Neue'; 
+	font-size: 60px; 
+ 	letter-spacing: 3px;
+ 	color: #1f2833 !important;
+
+}
+
+/*CSS RESPONSIVE */
+ .fulLScreen{
+	height: 92vh;
+} 
+
+ 
+@media(max-width:992px){
+	.fulLScreen{
+		height: auto;
+	}
+}
+
+@media(max-width:576px){
+	.fulLScreen{
+		height: auto;
+		min-height: auto;
+	}
+} 
+
+.gMapReposive{
+
+}
